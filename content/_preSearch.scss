@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Pacific';
+    src: local("Pacific"), url("../fonts/Pacifico-Regular.ttf") format("truetype");
+  }
+
+  @media screen and (max-width: 1100px) {
+    #welcomeImg {
+        width: 90vw;
+    }
+    #welcomeTxt {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    }
+
+.welcomeDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcomeImg {
+    height: 50vh;
+    border-radius: 10px;
+    animation: zoom 10s infinite;
+    user-select: none;
+}
+
+@keyframes zoom {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
+#welcomeTxt {
+    font-family: "Pacific";
+    font-size: 40px;
+    color: rgb(242, 0, 97);
+    user-select: none;
+    text-align: center;
+}

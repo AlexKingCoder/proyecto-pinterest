@@ -1,0 +1,9 @@
+@import "./header/header";
+@import "./content/preSearch";
+@import "./content/content";
+@import "./footer/footer";
+
+body {
+    max-width: 100%;
+    background-color: whitesmoke;
+}
